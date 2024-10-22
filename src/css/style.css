@@ -1,0 +1,893 @@
+@font-face {
+    font-family: 'sofia-pro';
+    src: url('../fonts/Sofia\ Pro\ UltraLight\ Az.otf') format('truetype');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'sofia-pro';
+    src: url('../fonts/Sofia\ Pro\ ExtraLight\ Az.otf') format('truetype');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'sofia-pro';
+    src: url('../fonts/Sofia\ Pro\ Light\ Az.otf') format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'sofia-pro';
+    src: url('../fonts/Sofia\ Pro\ Regular\ Az.otf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'sofia-pro';
+    src: url('../fonts/Sofia\ Pro\ Medium\ Az.otf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'sofia-pro';
+    src: url('../fonts/Sofia\ Pro\ Semi\ Bold\ Az.otf') format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'sofia-pro';
+    src: url('../fonts/Sofia\ Pro\ Bold\ Az.otf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'sofia-pro';
+    src: url('../fonts/Sofia\ Pro\ Black\ Az.otf') format('truetype');
+    font-weight: 800;
+}
+
+body {
+    font-family: sofia-pro;
+}
+
+.nav-style {
+    padding: 10px 80px;
+    background-color: #F2F1EF;
+    border-bottom: 1px solid #D9D9D9;
+    box-shadow: 0 -0.41 2.75 0 #00000006;
+}
+
+.navul {
+    gap: 45px;
+}
+
+.nav-link1 {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+
+.nav-link1.active {
+    color: #4DA391;
+    border-bottom: 3px solid #4DA391;
+}
+
+.nav-item1 {
+    display: flex;
+    align-items: center;
+}
+
+.nav-btn {
+    border: none;
+    background-color: #4DA391;
+    color: white;
+    font-weight: 700;
+    padding: 5px 30px;
+    border-radius: 40px;
+    font-size: 20px;
+}
+
+.nav-btn1 {
+    border: 1px solid #4DA391;
+    background-color: #F2F1EF;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    padding: 5px 30px;
+    font-size: 20px;
+    border-radius: 40px;
+}
+
+.logo {
+    width: 150px;
+}
+
+
+
+.topdiv {
+    padding-top: 50px;
+}
+
+.left {
+    width: 20%;
+}
+
+.middle {
+    width: 60%;
+    text-align: center;
+}
+
+.right {
+    width: 20%;
+}
+
+.left-car {
+    width: 100%;
+}
+
+.right-car {
+    width: 100%;
+}
+
+.head-line1 {
+    font-size: 66px;
+    font-weight: 700;
+    color: #303030;
+    margin: 0;
+}
+
+
+.head-line2 {
+    font-size: 66px;
+    font-weight: 700;
+    margin: 0;
+    color: #303030;
+}
+
+.report {
+    color: #4DA391;
+}
+
+.hero-section {
+    background-color: #F2F1EF;
+}
+
+.subtitle {
+    color: #656565;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 27px;
+}
+
+.buttonbox {
+    padding-top: 38px;
+}
+
+.under-box {
+    border: 2px solid #E2E2E2;
+    padding: 4px;
+    border-radius: 70px;
+}
+
+.btn1 {
+    background-color: white;
+    color: #303030;
+    font-size: 24px;
+    font-weight: 700;
+    border: 1.31px solid #3FAD6B;
+    padding: 10px 65px;
+    border-radius: 70px;
+}
+
+.btn2 {
+    background-color: transparent;
+    color: #060317;
+    font-size: 24px;
+    font-weight: 500;
+    border: none;
+    /* border: 1.31px solid #3FAD6B; */
+    padding: 10px 65px;
+    border-radius: 70px;
+}
+
+.search-icon {
+    width: 30px;
+}
+
+.search-text {
+    font-size: 24px;
+    font-weight: 700;
+    color: #4DA391;
+    margin: 0;
+}
+
+.input-box-main {
+    margin-top: 35px;
+
+}
+
+.input-box input {
+    border: none;
+    width: 600px;
+    padding: 15px 20px;
+}
+
+.input-under-box {
+    background-color: white;
+    border-radius: 70px;
+    border: 1px solid #4CDD86;
+    box-shadow: 8px 19px 20px #3FAD6B26;
+}
+
+.left-icon,
+.right-icon {
+    padding: 15px 20px;
+}
+
+.vertical-line {
+    border-left: 1px solid #BEB9B9;
+    height: 30px;
+}
+
+.arrow-icon {
+    width: 24px;
+    margin-left: 16px;
+}
+
+.samplebtn {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: #4DA391;
+    border: none;
+    padding: 19px 53px;
+    border-radius: 60px;
+    margin-top: 40px;
+}
+
+.leftimglast {
+    width: 300px;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.under-last {
+    width: 40%;
+}
+
+.rightimglast {
+    padding: 20px;
+    width: 300px;
+}
+
+.vertical-line1 {
+    border-left: 1px dashed #888599;
+    height: 100%;
+}
+
+.leftlast {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+
+.rightlast {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+
+}
+
+.carousel-head {
+    font-size: 48px;
+    font-weight: 700;
+    color: #303030;
+
+}
+
+.created-brands {
+    width: 130px;
+    margin: 0 50px;
+}
+
+.logos {
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+    width: 65vw;
+    margin-left: 60px;
+}
+
+.logos-slide {
+    display: inline-block;
+    animation: marquee 35s infinite linear;
+}
+
+.rectimg{
+    width: 100%;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.carousel-box {
+    padding: 50px 0px;
+}
+
+@media only screen and (max-width : 1500px) {
+    .nav-link1 {
+        font-size: 14px;
+    }
+
+    .navul {
+        gap: 30px;
+    }
+
+    .nav-btn {
+        padding: 5px 25px;
+        font-size: 14px;
+    }
+
+    .nav-btn1 {
+        padding: 5px 25px;
+        font-size: 14px;
+    }
+
+    .nav-style {
+        padding: 10px 10px;
+    }
+
+    .head-line1 {
+        font-size: 46px;
+    }
+
+
+    .head-line2 {
+        font-size: 46px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+        margin: 0;
+        margin-top: 27px;
+    }
+    
+    .buttonbox {
+        padding-top: 38px;
+    }
+    
+    .under-box {
+        padding: 4px;
+        border-radius: 70px;
+    }
+    
+    .btn1 {
+        font-size: 18px;
+        padding: 10px 65px;
+    }
+    
+    .btn2 {
+        font-size: 18px;
+        padding: 10px 65px;
+    }
+    .search-icon {
+        width: 25px;
+    }
+    
+    .search-text {
+        font-size: 18px;
+        margin: 0;
+    }
+    
+    .input-box-main {
+        margin-top: 35px;
+        font-size: 15px;
+    }
+    
+    .input-box input {
+        width: 350px;
+        padding: 15px 20px;
+    }
+    .vertical-line {
+        height: 20px;
+    }
+
+    .samplebtn {
+        font-size: 18px;
+        padding: 17px 45px;
+        margin-top: 40px;
+    }
+    .arrow-icon {
+        width: 20px;
+        margin-left: 16px;
+    }
+    .leftimglast {
+        width: 300px;
+        padding: 20px;
+        margin-left: 20px;
+    }
+    
+    .under-last {
+        width: 70%;
+        margin-top: 40px;
+    }
+    
+    .rightimglast {
+        padding: 20px;
+        width: 300px;
+    }
+    
+    .vertical-line1 {
+        height: 70%;
+        margin-top: 25px;
+    }
+    
+    .carousel-head {
+        font-size: 38px;
+    }
+    
+    .created-brands {
+        width: 100px;
+        margin: 0 30px;
+    }
+    
+    .logos {
+        width: -20%;
+        margin-left: 30px;
+    }
+    
+}
+
+
+
+
+
+
+@media only screen and (max-width : 1000px) {
+    .nav-link1 {
+        font-size: 14px;
+    }
+
+    .navul {
+        gap: 30px;
+    }
+
+    .nav-btn {
+        padding: 5px 25px;
+        font-size: 14px;
+    }
+
+    .nav-btn1 {
+        padding: 5px 25px;
+        font-size: 14px;
+    }
+
+    .nav-style {
+        padding: 10px 10px;
+    }
+
+    .head-line1 {
+        font-size: 36px;
+    }
+
+
+    .head-line2 {
+        font-size: 36px;
+    }
+
+    .subtitle {
+        font-size: 12px;
+        margin: 0;
+        margin-top: 27px;
+    }
+    
+    .buttonbox {
+        padding-top: 38px;
+    }
+    
+    .under-box {
+        padding: 4px;
+        border-radius: 70px;
+    }
+    
+    .btn1 {
+        font-size: 15px;
+        padding: 5px 50px;
+    }
+    
+    .btn2 {
+        font-size: 15px;
+        padding: 5px 50px;
+    }
+    .search-icon {
+        width: 25px;
+    }
+    
+    .search-text {
+        font-size: 18px;
+        margin: 0;
+    }
+    
+    .input-box-main {
+        margin-top: 55px;
+        font-size: 15px;
+    }
+    
+    .input-box input {
+        width: 350px;
+        padding: 15px 20px;
+    }
+    .vertical-line {
+        height: 20px;
+    }
+
+    .samplebtn {
+        font-size: 16px;
+        padding: 15px 35px;
+        margin-top: 40px;
+    }
+    .arrow-icon {
+        width: 16px;
+        margin-left: 16px;
+    }
+    .leftimglast {
+        width: 250px;
+        padding: 20px;
+        margin-left: 20px;
+    }
+    
+    .under-last {
+        width: 100%;
+        margin-top: 40px;
+    }
+    
+    .rightimglast {
+        padding: 20px;
+        width: 250px;
+    }
+
+    .leftlast {
+        justify-content: center;
+    }
+    
+    .rightlast {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .vertical-line1 {
+        height: 70%;
+        margin-top: 25px;
+    }
+    
+    .carousel-head {
+        font-size: 28px;
+    }
+    
+    .created-brands {
+        width: 100px;
+        margin: 0 30px;
+    }
+    
+    .logos {
+        width: -20%;
+        margin-left: 30px;
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 991px){
+    .navul {
+        gap: 18px;
+    }
+    .first{
+        margin-top: 20px;
+    }
+    
+    
+}
+
+
+
+
+@media only screen and (max-width : 765px) {
+    .nav-link1 {
+        font-size: 14px;
+    }
+
+    .navul {
+        gap: 18px;
+    }
+
+    .nav-btn {
+        padding: 5px 25px;
+        font-size: 14px;
+    }
+
+    .nav-btn1 {
+        padding: 5px 25px;
+        font-size: 14px;
+    }
+
+    .nav-style {
+        padding: 10px 10px;
+    }
+
+    .head-line1 {
+        font-size: 26px;
+    }
+
+
+    .head-line2 {
+        font-size: 26px;
+    }
+
+    .subtitle {
+        font-size: 8px;
+        margin: 0;
+        margin-top: 27px;
+    }
+    
+    .buttonbox {
+        padding-top: 38px;
+    }
+    
+    .under-box {
+        padding: 4px;
+        border-radius: 70px;
+    }
+    
+    .btn1 {
+        font-size: 12px;
+        padding: 5px 35px;
+    }
+    
+    .btn2 {
+        font-size: 12px;
+        padding: 5px 35px;
+    }
+    .search-icon {
+        width: 18px;
+    }
+    
+    .search-text {
+        font-size: 13px;
+        margin: 0;
+    }
+    
+    .input-box-main {
+        margin-top: 55px;
+        font-size: 15px;
+    }
+    
+    .input-box input {
+        width: 250px;
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+    .left-icon, .right-icon {
+        padding: 10px 20px;
+    }
+    .vertical-line {
+        height: 20px;
+    }
+
+    .samplebtn {
+        font-size: 13px;
+        padding: 10px 25px;
+        margin-top: 40px;
+    }
+    .arrow-icon {
+        width: 14px;
+        margin-left: 16px;
+    }
+    .leftimglast {
+        width: 200px;
+        padding: 20px;
+        margin-left: 20px;
+    }
+    
+    .under-last {
+        width: 100%;
+        margin-top: 40px;
+    }
+    
+    .rightimglast {
+        padding: 20px;
+        width: 200px;
+    }
+
+    .leftlast {
+        justify-content: center;
+    }
+    
+    .rightlast {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .vertical-line1 {
+        height: 70%;
+        margin-top: 25px;
+    }
+    
+    .carousel-head {
+        font-size: 20px;
+    }
+    
+    .created-brands {
+        width: 70px;
+        margin: 0 20px;
+    }
+    
+    .logos {
+        width: -18%;
+        margin-left: 10px;
+    }
+    
+}
+
+
+
+
+@media only screen and (max-width : 500px) {
+    .nav-link1 {
+        font-size: 14px;
+    }
+
+    .navul {
+        gap: 18px;
+    }
+
+    .nav-btn {
+        padding: 5px 25px;
+        font-size: 14px;
+    }
+
+    .nav-btn1 {
+        padding: 5px 25px;
+        font-size: 14px;
+    }
+
+    .nav-style {
+        padding: 10px 10px;
+    }
+
+    .head-line1 {
+        font-size: 18px;
+    }
+
+
+    .head-line2 {
+        font-size: 18px;
+    }
+
+    .subtitle {
+        font-size: 8px;
+        margin: 0;
+        width: 80%;
+        text-align: center;
+        margin-top: 27px;
+    }
+    
+    .buttonbox {
+        padding-top: 40px;
+        width: 100%;
+    }
+    
+    .under-box {
+        padding: 4px;
+        width: 76%;
+        border-radius: 17px;
+    }
+    
+    .btn1 {
+        font-size: 12px;
+        padding: 5px 35px;
+    }
+    
+    .btn2 {
+        font-size: 12px;
+        padding: 5px 35px;
+    }
+    .search-icon {
+        width: 16px;
+    }
+    
+    .search-text {
+        font-size: 10px;
+        margin: 0;
+    }
+    
+    .input-box-main {
+        margin-top: 35px;
+        font-size: 15px;
+    }
+    
+    .input-box input {
+        width: 150px;
+        padding: 10px 20px;
+        font-size: 10px;
+    }
+    .left-icon, .right-icon {
+        padding: 10px 20px;
+    }
+    .vertical-line {
+        height: 20px;
+    }
+
+    .samplebtn {
+        font-size: 12px;
+        padding: 8px 20px;
+        margin-top: 40px;
+    }
+    .arrow-icon {
+        width: 12px;
+        margin-left: 16px;
+        margin-top: -5px;
+    }
+    .leftimglast {
+        width: 150px;
+        padding: 20px;
+        margin-left: 20px;
+    }
+    
+    .under-last {
+        width: 100%;
+        margin-top: 40px;
+    }
+    
+    .rightimglast {
+        padding: 20px;
+        width: 150px;
+    }
+
+    .leftlast {
+        justify-content: center;
+    }
+    
+    .rightlast {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .vertical-line1 {
+        height: 70%;
+        margin-top: 25px;
+    }
+    
+    .carousel-head {
+        font-size: 16px;
+    }
+    
+    .created-brands {
+        width: 50px;
+        margin: 0 10px;
+    }
+    
+    .logos {
+        width: -18%;
+        margin-left: 10px;
+    }
+    .carousel-box {
+        padding: 20px 0px;
+    }
+    
+}
+
